@@ -18,7 +18,7 @@ RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.votredomaine.fr/$1 [R=301,L]
 ```
 
-Si vous utilisez un CMS (comme un WordPerss par exemple), il se peut que celui-ci gére de manière native cette redirection. Consultez la documentation de votre CMS afin d'en savoir plus.
+Si vous utilisez un CMS (comme un WordPress par exemple), il se peut que celui-ci gère de manière native cette redirection. Consultez la documentation de votre CMS afin d'en savoir plus.
 
 Cependant, le fonctionnement de votre site peut être altéré si vous utilisez votre certificat SSL. Avant de communiquer dessus, vérifier que votre site ne tombe pas dans les erreurs courantes liées au déploiement du SSL, rendez-vous pour cela sur ce guide : [Éviter les pièges du SSL avec mon site web](https://docs.ovh.com/fr/hosting/eviter-les-pieges-du-ssl-avec-mon-site-web/){.external}.
 
